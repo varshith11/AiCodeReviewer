@@ -11,7 +11,7 @@ gemini_model = ai.GenerativeModel(model_name="models/gemini-1.5-pro", system_ins
 
 st.title("An AI Code Reviewer")
 
-user_input = st.text_area(label="Enter your pyhton code here...", placeholder="Explain the concept of for loops")
+user_input = st.text_area(label="Enter your pyhton code here...")
 
 btn_click = st.button("Generate ")
 
